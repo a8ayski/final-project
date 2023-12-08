@@ -1,6 +1,7 @@
 .midtwo {
   background-color: var(--hero-color);
   color: var(--mid-text);
+  padding-bottom: 80px;
 }
 .midtwo-items {
   display: flex;
@@ -22,4 +23,93 @@
     padding: 12px 16px;
     font-size: 16px;
   }
+}
+.boxes {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.card-one {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  background: var(--mid-background);
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.07), 0px 4px 6px -1px rgba(0, 0, 0, 0.1);
+  .back-box {
+    background-image: url(../assets/cveti.png);
+    width: 300px;
+    height: 220px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  .back-boxsecond {
+    background-image: url(../assets/lubop.png);
+    width: 300px;
+    height: 220px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  .back-boxthird {
+    background-image: url(../assets/splash.png);
+    width: 300px;
+    height: 220px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  .back-boxforth {
+    background-image: url(../assets/eyew.png);
+    width: 300px;
+    height: 220px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  .back-boxfifth {
+    background-image: url(../assets/derev.png);
+    width: 300px;
+    height: 220px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  .paddings {
+    padding-top: 16px;
+    padding-left: 16px;
+  }
+  .prompted {
+    padding: 8px;
+    background-color: var(--hero-color);
+    color: var(--mid-text);
+    display: inline;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+
+  img {
+    margin-left: 16px;
+  }
+  .labels {
+    display: flex;
+    margin-top: 16px;
+  }
+  .texts {
+    display: flex;
+    flex-direction: column;
+    margin-left: 8px;
+    margin-top: 2px;
+  }
+  h4 {
+    font-weight: 400;
+  }
+  h5 {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--mid-label);
+  }
+}
+.purples {
+  padding: 8px;
+  background-color: var(--mid-roses);
+  color: var(--mid-rose);
+  display: inline;
+  border-radius: 4px;
+  font-size: 14px;
 }

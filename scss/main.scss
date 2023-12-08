@@ -5,6 +5,9 @@
   --hero-color: #f1f5f9;
   --mid-background: #fff;
   --mid-text: #000;
+  --mid-label: #475569;
+  --mid-roses: #f3e8ff;
+  --mid-rose: #6b21a8;
 }
 
 @import './header';
@@ -32,7 +35,11 @@ body.dark {
   --hero-color: #474a4d;
   --mid-background: rgb(34, 33, 33);
   --mid-text: orange;
+  --mid-label: #92703c;
+  --mid-roses: #615a7e;
+  --mid-rose: #361055;
 }
+
 .container {
   max-width: 1440px;
   margin: 0 auto;
