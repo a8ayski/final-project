@@ -1,1 +1,72 @@
-final project
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/main.min.css" />
+    <title>xinder</title>
+  </head>
+
+  <body>
+    <section class="header">
+      <div class="container">
+        <header class="header-first">
+          <h2>xinder</h2>
+          <ul class="header-first-links">
+            <li><a href="#">Explore</a></li>
+            <li><a href="#">Solutions</a></li>
+            <li><a href="#">Articles</a></li>
+            <li><a href="#">Sign In</a></li>
+            <button>Join Now</button>
+          </ul>
+        </header>
+        <div class="main-area">
+          <div class="text-area">
+            <h1>Search the work of the best artists</h1>
+            <div class="searcher">
+              <form action="" class="search-bar">
+                <img src="./assets/search.svg" alt="search" />
+                <input type="text" placeholder="search for artists, work name, or category" name="q" />
+              </form>
+              <button type="submit">Search</button>
+            </div>
+            <div class="buttons">
+              <button>Oil Painting</button>
+              <button>Abstract Art</button>
+              <button>Sculpture</button>
+              <button>Art Deco</button>
+              <button>Pop Art</button>
+            </div>
+          </div>
+          <img src="./assets/woman.png" alt="woman" />
+        </div>
+      </div>
+    </section>
+    <!-- NEW BLOCK  -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-icons">
+          <img src="./assets/smart.svg" alt="" /><img src="./assets/zoomer.svg" alt="" /><img
+            src="./assets/shells.svg"
+            alt=""
+          /><img src="./assets/waves.svg" alt="" /><img src="./assets/artv.svg" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- NEW BLOCK  -->
+    <section class="midone">
+      <div class="container">
+        <div class="midone-items">assa</div>
+      </div>
+    </section>
+  </body>
+  <button class="theme-toggle-btn">toggles</button>
+</html>
+<script>
+  document.querySelector('.theme-toggle-btn').addEventListener('click', () => {
+    document.body.classList.toggle('dark');
+  });
+</script>

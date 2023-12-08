@@ -1,0 +1,42 @@
+:root {
+  --header-background: #881337;
+  --text-color: #fff;
+  --button-color: #be123c;
+  --hero-color: #f1f5f9;
+  --mid-background: #fff;
+  --mid-text: #000;
+}
+
+@import './header';
+@import './hero';
+@import './midone';
+
+*,
+html,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  margin-inline: auto;
+  font-family: 'Roboto', sans-serif;
+  color: var(--text-color);
+}
+body.dark {
+  --header-background: #321388;
+  --text-color: orange;
+  --button-color: #220966;
+  --hero-color: #474a4d;
+  --mid-background: rgb(34, 33, 33);
+  --mid-text: orange;
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+li {
+  list-style-type: none;
+}
