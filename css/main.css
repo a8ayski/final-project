@@ -314,11 +314,6 @@
 .card-one h4 {
   font-weight: 400;
 }
-.card-one h5 {
-  font-size: 14px;
-  font-weight: 400;
-  color: var(--mid-label);
-}
 
 .purples {
   padding: 8px;
@@ -327,6 +322,85 @@
   display: inline;
   border-radius: 4px;
   font-size: 14px;
+}
+
+h5 {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--mid-label);
+}
+
+.midthree {
+  background-color: var(--mid-background);
+  color: var(--mid-text);
+  padding: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 48px;
+}
+
+.icon-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-inline: 33px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.texts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+h3 {
+  margin-top: 16px;
+  font-size: 20px;
+}
+
+.service-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.finder {
+  font-size: 20px;
+  padding: 16px 32px;
+  border-radius: 5px;
+  border: 2px solid var(--button-color);
+  background: var(--button-color);
+  color: var(--text-color);
+}
+.finder:hover {
+  background-color: var(--text-color);
+  color: var(--header-background);
 }
 
 *,
