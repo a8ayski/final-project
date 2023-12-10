@@ -17,8 +17,21 @@
       margin-top: 24px;
       font-size: 18px;
     }
+    .galochka {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      p {
+        margin-top: 0;
+        font-weight: 400;
+        line-height: 160%;
+      }
+    }
   }
   .items-right {
     width: 600px;
   }
+}
+.galochka-block {
+  margin-top: 24px;
 }
