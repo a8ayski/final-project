@@ -166,6 +166,9 @@
       -ms-flex-align: center;
           align-items: center;
 }
+.midone-items svg {
+  cursor: pointer;
+}
 .midone-items h2 {
   font-size: 40px;
   font-weight: 700;
@@ -210,6 +213,9 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+.midtwo-items svg {
+  cursor: pointer;
 }
 .midtwo-items h2 {
   font-size: 40px;
