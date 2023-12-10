@@ -403,6 +403,36 @@ h3 {
   color: var(--header-background);
 }
 
+.midfour {
+  background-color: #475569;
+  color: #fff;
+  padding: 80px;
+}
+
+.midfour-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 80px;
+}
+.midfour-items h2 {
+  font-size: 56px;
+  font-weight: 800;
+}
+.midfour-items .items-left {
+  width: 600px;
+}
+.midfour-items .items-left p {
+  margin-top: 24px;
+  font-size: 18px;
+}
+.midfour-items .items-right {
+  width: 600px;
+}
+
 *,
 html,
 *::after,

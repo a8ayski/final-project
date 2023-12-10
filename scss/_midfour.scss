@@ -1,0 +1,24 @@
+.midfour {
+  background-color: #475569;
+  color: #fff;
+  padding: 80px;
+}
+.midfour-items {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  h2 {
+    font-size: 56px;
+    font-weight: 800;
+  }
+  .items-left {
+    width: 600px;
+    p {
+      margin-top: 24px;
+      font-size: 18px;
+    }
+  }
+  .items-right {
+    width: 600px;
+  }
+}
