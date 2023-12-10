@@ -8,6 +8,7 @@
   --mid-label: #475569;
   --mid-roses: #f3e8ff;
   --mid-rose: #6b21a8;
+  --last-button: #fff;
 }
 
 .header {
@@ -449,14 +450,29 @@ h3 {
   font-weight: 400;
   line-height: 160%;
 }
+.midfour-items .items-left button {
+  margin-top: 24px;
+  border-radius: 5px;
+  background-color: transparent;
+  text-decoration: none;
+  border: 2px solid var(--text-color);
+  color: var(--text-color);
+  padding: 12px 28px;
+  font-size: 16px;
+}
+.midfour-items .items-left button:hover {
+  background-color: var(--text-color);
+  color: #475569;
+}
 .midfour-items .items-right {
   width: 600px;
+  position: relative;
 }
-.midfour-items .items-right .youvideo {
+.midfour-items .items-right .video-item {
   margin-top: 32px;
   margin-left: 39px;
 }
-.midfour-items .items-right .youvideo iframe {
+.midfour-items .items-right .video-item iframe {
   border-radius: 20px;
 }
 
@@ -488,6 +504,7 @@ body.dark {
   --mid-label: #92703c;
   --mid-roses: #615a7e;
   --mid-rose: #361055;
+  --last-button: #475569;
 }
 
 .container {
