@@ -36,12 +36,11 @@ h3 {
   font-size: 20px;
   padding: 16px 32px;
   border-radius: 5px;
-  border: 2px solid #be123c;
-  background: #be123c;
+  border: 2px solid var(--button-color);
+  background: var(--button-color);
   color: var(--text-color);
   &:hover {
     background-color: var(--text-color);
     color: var(--header-background);
-    border: 2px solid var(--text-color);
   }
 }
