@@ -49,9 +49,25 @@
     .video-item {
       margin-top: 32px;
       margin-left: 39px;
+      transform: rotate(0);
       iframe {
         border-radius: 20px;
       }
+    }
+    .video-one {
+      position: absolute;
+    }
+    .video-two {
+      position: absolute;
+      z-index: 1;
+      top: 51px;
+      left: 410px;
+    }
+    .video-three {
+      position: absolute;
+      z-index: 2;
+      top: 277px;
+      left: 110px;
     }
   }
 }

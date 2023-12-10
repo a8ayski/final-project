@@ -471,9 +471,26 @@ h3 {
 .midfour-items .items-right .video-item {
   margin-top: 32px;
   margin-left: 39px;
+  -webkit-transform: rotate(0);
+          transform: rotate(0);
 }
 .midfour-items .items-right .video-item iframe {
   border-radius: 20px;
+}
+.midfour-items .items-right .video-one {
+  position: absolute;
+}
+.midfour-items .items-right .video-two {
+  position: absolute;
+  z-index: 1;
+  top: 51px;
+  left: 410px;
+}
+.midfour-items .items-right .video-three {
+  position: absolute;
+  z-index: 2;
+  top: 277px;
+  left: 110px;
 }
 
 .galochka-block {
