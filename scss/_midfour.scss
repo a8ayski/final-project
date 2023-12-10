@@ -30,6 +30,13 @@
   }
   .items-right {
     width: 600px;
+    .youvideo {
+      margin-top: 32px;
+      margin-left: 39px;
+      iframe {
+        border-radius: 20px;
+      }
+    }
   }
 }
 .galochka-block {

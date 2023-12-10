@@ -446,6 +446,13 @@ h3 {
 .midfour-items .items-right {
   width: 600px;
 }
+.midfour-items .items-right .youvideo {
+  margin-top: 32px;
+  margin-left: 39px;
+}
+.midfour-items .items-right .youvideo iframe {
+  border-radius: 20px;
+}
 
 .galochka-block {
   margin-top: 24px;
