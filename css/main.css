@@ -40,13 +40,21 @@
       -ms-flex-align: center;
           align-items: center;
 }
+.header-first-links .theme-toggle-btn {
+  border-radius: 50%;
+  height: 45px;
+  width: 45px;
+  border: 2px solid var(--text-color);
+  background: none;
+  padding: 5px;
+}
 .header-first-links a {
   font-size: 16px;
   text-decoration: none;
   outline: none;
   color: var(--text-color);
 }
-.header-first button {
+.header-first .join {
   border-radius: 5px;
   background-color: transparent;
   text-decoration: none;
@@ -55,7 +63,7 @@
   padding: 12px 28px;
   font-size: 16px;
 }
-.header-first button:hover {
+.header-first .join:hover {
   background-color: var(--text-color);
   color: var(--header-background);
 }

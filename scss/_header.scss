@@ -16,6 +16,14 @@
     gap: 32px;
     justify-content: space-between;
     align-items: center;
+    .theme-toggle-btn {
+      border-radius: 50%;
+      height: 45px;
+      width: 45px;
+      border: 2px solid var(--text-color);
+      background: none;
+      padding: 5px;
+    }
 
     a {
       font-size: 16px;
@@ -24,7 +32,7 @@
       color: var(--text-color);
     }
   }
-  button {
+  .join {
     border-radius: 5px;
     background-color: transparent;
     text-decoration: none;
