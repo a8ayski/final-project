@@ -353,6 +353,7 @@ h5 {
 }
 
 .strelka-vlevo {
+  display: none;
   position: absolute;
   padding: 12px;
   border-radius: 100%;
