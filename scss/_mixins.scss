@@ -1,0 +1,116 @@
+
+@mixin section-title {
+    color: var(--text-color);
+    font-size: 3.5rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 110%;
+}
+
+@mixin section-subtitle {
+    color: var(--text-color);
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+}
+
+@mixin block-title {
+    color: var(--mid-text);
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+@mixin block-subtitle {
+    color: var(--mid-text);
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+}
+
+@mixin block-tag ($txt-color, $bg-color) {
+    color: $txt-color;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    padding: 4px 0.5rem;
+    border-radius: 4px;
+    background-color: $bg-color;
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+}
+
+@mixin border-button {
+    padding: 1rem;
+    background-color: transparent;
+    border-radius: 0.5rem;
+    border: 2px solid var(--text-color);
+    color: var(--text-color);
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5rem;
+    letter-spacing: 0.03125rem;
+  }
+
+@mixin small-picture {
+    border-radius: 0.625rem;
+    border: 1px solid var(--text-color);
+    opacity: 0.25;
+    background: var(--text-color);
+    width: 11.5rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+@mixin main-picture {
+    border-radius: 0.625rem;
+    border: 1px solid var(--text-color);
+    background: var(--text-color);
+    width: 24rem;
+    display: flex;
+    flex-direction: column;
+}
+
+@mixin pic-name {
+    color: var(--title-color);
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    display: flex;
+    gap: 0.5rem;
+    padding: 1rem;
+}
+
+@mixin table-title {
+    color: var(--mid-label);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 110%;
+    text-decoration: none;
+    margin: 0.75rem 0;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+
+@mixin table-subtitle {
+    color: var(--mid-label);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    text-decoration: none;
+    margin: 0.75rem 0;
+}

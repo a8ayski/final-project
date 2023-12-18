@@ -1,0 +1,62 @@
+.midsix {
+    background-color: #475569;
+    color: var(--text-color);
+    padding: 80px;
+}
+
+.midsix-items {
+    display: flex;
+    gap: 5rem;
+}
+
+.midsix-description {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    h2 {
+        @include section-title;
+    }
+    p {
+        @include section-subtitle;
+    }
+    button {
+        @include border-button;
+    }
+}
+
+.midsix-gallery {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.explore-button {
+    @include border-button;
+
+    &:hover {
+        background-color: var(--text-color);
+        color: var(--title-color);
+    }
+}
+
+.small-pic {
+    @include small-picture;
+}
+
+.main-pic {
+    @include main-picture;
+}
+
+.pic-title {
+    @include pic-name;
+}
+
+.pic-border {
+    border-radius: 0.63rem 0.63rem 0 0;
+}
+
+.slide-pic {
+    position: absolute;
+    left: 4.25rem;
+    top: 7.14rem;
+    opacity: 100%;
+}

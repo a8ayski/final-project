@@ -1,0 +1,63 @@
+.midseven {
+    padding: 5rem;
+    background-color: var(--mid-background);
+}
+
+.midseven-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.63rem;
+}
+
+.midseven-head {
+    color: var(--mid-text);
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%;
+}
+
+.midseven-link {
+    color: var(--blue-600, #2563EB);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5rem;
+    letter-spacing: 0.03125rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.midseven-blocks {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.block {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.block-tag-purple {
+    @include block-tag (#6B21A8, #F3E8FF);
+}
+
+.block-tag-green  {
+    @include block-tag (#166534, #DCFCE7);
+}
+
+.block-tag-yellow {
+    @include block-tag (#854D0E, #FEF9C3);
+}
+
+.block-title {
+    @include block-title;
+}
+
+.block-subtitle {
+    @include block-subtitle;
+}
+

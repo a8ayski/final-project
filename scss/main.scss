@@ -9,14 +9,21 @@
   --mid-roses: #f3e8ff;
   --mid-rose: #6b21a8;
   --last-button: #fff;
+  --title-color: #0F172A;
 }
 
+@import './mixins';
 @import './header';
 @import './hero';
 @import './midone';
 @import './midtwo';
 @import './midthree';
 @import './midfour';
+@import './midfive';
+@import './midsix';
+@import './midseven';
+@import './mideight';
+@import './footer';
 
 *,
 html,
@@ -29,6 +36,7 @@ html,
 body {
   margin-inline: auto;
   font-family: 'Roboto', sans-serif;
+  font-size: 16px;
   color: var(--text-color);
 }
 body.dark {
@@ -47,6 +55,7 @@ body.dark {
 .container {
   max-width: 1440px;
   margin: 0 auto;
+  position: relative;
 }
 
 li {

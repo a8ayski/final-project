@@ -1,0 +1,54 @@
+.midfive {
+    background-color: var(--hero-color);
+    padding: 80px;
+}
+
+.midfive-items {
+    display: flex;
+    gap: 80px;
+}
+
+.midfive-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+    margin-right: 48px;
+}
+
+.author {
+    color: var(--mid-label);
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%;
+}
+
+.art-gal {
+    color: #2563EB;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%;
+}
+
+.quote {
+    color: var(--mid-text);
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+}
+
+.slide-left {
+    position: absolute;
+    top: 168px;
+    left: -24px;
+}
+
+.slide-right {
+    position: absolute;
+    top: 168px;
+    left: 1256px;
+}
+

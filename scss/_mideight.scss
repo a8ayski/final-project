@@ -1,0 +1,29 @@
+.mideight {
+    background-color: var(--title-color);
+    padding: 5rem 5rem 0 5rem;
+}
+
+.mideight-items {
+    display: flex;
+    gap: 5rem;
+}
+
+.mideight-desctiption {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.mideight-head {
+    @include section-title;
+}
+
+.join-btn {
+    @include border-button;
+
+    &:hover {
+        background-color: var(--text-color);
+        color: var(--title-color);
+      }
+}
